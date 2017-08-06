@@ -15,4 +15,12 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-ivanyu-bintray-hello-world-repo</id>
+            <name>ivanyu-bintray-hello-world-repo</name>
+            <url>https://api.bintray.com/maven/ivanyu/bintray-hello-world-repo/bintray-hello-world-java/;publish=1</url>
+        </repository>
+    </distributionManagement>
 </project>
