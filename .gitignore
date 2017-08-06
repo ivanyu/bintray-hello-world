@@ -15,5 +15,5 @@
 target/
 
 # IntelliJ IDEA
-bintray-hello-world.iml
+*.iml
 .idea
