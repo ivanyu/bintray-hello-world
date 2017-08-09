@@ -1,6 +1,6 @@
 package me.ivanyu.bintrayhelloworld
 
-class BintrayHelloWorldScala {
+object BintrayHelloWorldScala {
   def say(): Unit = {
     println("[Scala] Hello World from Bintray!")
   }
