@@ -8,6 +8,33 @@
     <artifactId>bintray-hello-world-java</artifactId>
     <version>1.0</version>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>me.ivanyu.bintrayhelloworld</name>
+        <url>https://github.com/ivanyu/bintray-hello-world</url>
+    </organization>
+
+    <scm>
+        <connection>scm:git:git://github.com/ivanyu/bintray-hello-world.git</connection>
+        <url>https://github.com/ivanyu/bintray-hello-world</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>ivanyu</id>
+            <name>Ivan Yurchenko</name>
+            <email>ivan0yurchenko@gmail.com</email>
+        </developer>
+    </developers>
+
     <packaging>jar</packaging>
 
     <properties>
