@@ -26,6 +26,7 @@
 
     <build>
         <plugins>
+            <!-- To add the sources JAR -->
             <plugin>
                 <artifactId>maven-source-plugin</artifactId>
                 <executions>
@@ -36,6 +37,8 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <!-- To add the Javadoc JAR -->
             <plugin>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <executions>
@@ -46,6 +49,19 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <!-- To add the tests JAR -->
+            <!--
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals><goal>test-jar</goal></goals>
+                    </execution>
+                </executions>
+            </plugin>
+            -->
         </plugins>
     </build>
 </project>

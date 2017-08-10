@@ -12,6 +12,7 @@ publishTo := Some(
 credentials += Credentials(Path.userHome / ".sbt" / ".credentials")
 publishMavenStyle := true
 
+// Not publish sources and/or Javadoc
 //packagedArtifacts in publish ~= { m =>
 //  val classifiersToExclude = Set(
 //    Artifact.SourceClassifier,
@@ -21,3 +22,7 @@ publishMavenStyle := true
 //    art.classifier.forall(c => !classifiersToExclude.contains(c))
 //  }
 //}
+
+
+//publishArtifact in Test := true // to add the tests JAR
+publishArtifact in Test := false
